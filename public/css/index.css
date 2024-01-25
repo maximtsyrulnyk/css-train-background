@@ -2,12 +2,18 @@
   background-color: green;
 }
 .task2 {
-  background-image: url('/img/img-400x200.jpg');
+  background-image: url('/img/div.container-1.png');
+  background-size: cover; /* або 'contain', в залежності від ваших потреб */
+  /* Інші можливі стилі для налаштування фону: */
+  background-repeat: no-repeat;
+  background-position: center center;
 }
 .task3 {
+  background-image: url('/img/div.container-2.png');
   background-image: linear-gradient(yellow, red);
 }
 .task4 {
+  background-image: url('/img/div.container-3.png');
   background-image: radial-gradient(
     closest-side,
     #3f87a6,
@@ -16,6 +22,7 @@
   );
 }
 .task5 {
+  background-image: url('/img/div.container-4.png');
   background-image: conic-gradient(
     from 3.1416rad at 10% 50%,
     #e66465,
@@ -23,132 +30,186 @@
   );
 }
 .task6 {
-  background-image: url('/img/img-400x200.jpg');
+  background-image: url('/img/div.container-5.png');
   background-repeat: repeat-x;
 }
 .task7 {
-  background-image: url('/img/img-400x200.jpg');
+  background-image: url('/img/div.container-6.png');
   background-repeat: repeat-y;
 }
 .task8 {
-  background-image: url('/img/img-400x200.jpg');
+  background-image: url('/img/div.container-7.png');
   background-repeat: no-repeat;
 }
 .task9 {
-  background-image: url('/img/img-400x200.jpg');
+  background-image: url('/img/div.container-8.png');
   background-repeat: space;
-}
-
-.task10 {
-  background-image: url('/img/img-400x200.jpg');
-  background-repeat: round;
-}
-.task11 {
-  background-image: url('/img/img-400x200.jpg');
-  background-attachment: scroll;
-}
-.task12 {
-  background-image: url('/img/img-400x200.jpg');
-  background-attachment: fixed;
-}
-.task13 {
-  background-image: url('/img/img-400x200.jpg');
-  background-attachment: local;
-}
-.task14 {
-  background-image: url('/img/img-400x200.jpg');
-  background-position: center;
-}
-.task15 {
-  background-image: url('/img/img-400x200.jpg');
-  background-position: top;
-}
-
-.task16 {
-  background-image: url('/img/img-400x200.jpg');
-  background-position: bottom;
-}
-
-.task17 {
-  background-image: url('/img/img-400x200.jpg');
-  background-position: left;
-}
-
-.task18 {
-  background-image: url('/img/img-400x200.jpg');
-  background-position: right;
-}
-
-.task19 {
-  background-image: url('/img/img-400x200.jpg');
-  background-position: 100px;
-}
-
-.task20 {
-  background-image: url('/img/img-400x200.jpg');
-  background-size: auto;
-}
-
-.task21 {
-  background-image: url('/img/img-400x200.jpg');
-  background-size: 600px;
-}
-
-.task22 {
-  background-image: url('/img/img-400x200.jpg');
-  background-size: 50%;
-}
-
-.task23 {
-  background-image: url('/img/img-400x200.jpg');
   background-size: contain;
 }
 
-.task24 {
-  background-image: url('/img/img-400x200.jpg');
+.task10 {
+  background-image: url('/img/div.container-9.png');
+  background-repeat: round;
+  background-size: 100% 100%;
+  background-size: contain;
+  background-repeat: space;
+}
+.task11 {
+  background-image: url('/img/div.container-10.png');
+  background-attachment: fixed;
   background-size: cover;
+}
+.task12 {
+  background-image: url('/img/div.container-11.png');
+  background-attachment: fixed;
+  background-size: cover;
+}
+.task13 {
+  background-image: url('/img/div.container-12.png');
+  background-attachment: local;
+  background-size: cover;
+}
+.task14 {
+  background-image: url('/img/div.container-13.png');
+  background-position: center;
+  background-size: cover;
+}
+.task15 {
+  background-image: url('/img/div.container-14.png');
+  background-position: top;
+  background-size: cover;
+}
+
+.task16 {
+  background-image: url('/img/div.container-15.png');
+  background-position: bottom;
+  background-size: cover;
+}
+
+.task17 {
+  background-image: url('/img/div.container-16.png');
+  background-position: left;
+  background-size: cover;
+}
+
+.task18 {
+  background-image: url('/img/div.container-17.png');
+  background-position: right;
+  background-size: cover;
+}
+
+.task19 {
+  background-image: url('/img/div.container-18.png');
+  background-position: 0 100px;
+  background-size: cover;
+}
+
+.task20 {
+  background-image: url('/img/div.container-19.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.task21 {
+  background-image: url('/img/div.container-20.png');
+  background-size: 600px;
+  background-repeat: no-repeat;
+}
+
+.task22 {
+  background-image: url('/img/div.container-21.png');
+  background-size: 50% auto;
+  background-repeat: no-repeat;
+}
+
+.task23 {
+  background-image: url('/img/div.container-22.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.task24 {
+  background-image: url('/img/div.container-23.png');
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
 }
 
 .task25 {
   border: 20px dashed black;
-  background-image: url('/img/img-400x200.jpg');
-  background-clip: border-box;
+  background-image: url('/img/div.container-24.png');
+  background-size: cover;
+  background-clip: content-box;
+  border: 10px solid transparent;
   box-sizing: border-box;
 }
 
 .task26 {
-  background-image: url('/img/img-400x200.jpg');
+  background-image: url('/img/div.container-25.png');
+  background-size: auto 100%;
   background-clip: padding-box;
   border: 20px dashed black;
   box-sizing: border-box;
+  padding: 20px;
 }
 
 .task27 {
-  background-image: url('/img/img-400x200.jpg');
-  background-clip: text;
+  background-image: url('/img/div.container-27.png');
+  background-size: cover;
+  background-clip: padding-box;
+  padding: 20px;
   -webkit-background-clip: text;
   font-size: 120px;
   font-weight: 900;
   color: transparent;
+  display: inline-block;
 }
 
 .task28 {
-  background-image: url('/img/img-400x200.jpg');
+  background-image: url('/img/div.container-28.png');
+  width: 300px;
+  height: 200px;
+  position: relative;
+  overflow: hidden;
   background-origin: border-box;
   box-sizing: border-box;
   border: 20px dashed black;
   background-repeat: no-repeat;
 }
-
+.task28::before {
+  content: '';
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  bottom: 10px;
+  left: 10px;
+  background-image: url('/img/div.container-28.png');
+  background-size: cover;
+  z-index: -1;
+}
 .task29 {
-  background-image: url('/img/img-400x200.jpg');
+  background-image: url('/img/div.container-29.png');
   background-origin: padding-box;
   box-sizing: border-box;
   border: 20px dashed black;
   padding: 20px;
   background-repeat: no-repeat;
+  width: 300px;
+  height: 200px;
+  position: relative;
+  background-color: #f2f2f2;
+  overflow: hidden;
 }
-
+.task29::after {
+  content: '';
+  position: absolute;
+  top: 10px; /* відступ зверху */
+  right: 10px; /*  відступ справа */
+  bottom: 10px; /*  відступ знизу */
+  left: 10px; /*  відступ зліва */
+  background-image: url('/img/div.container-29.png');
+  background-size: cover;
+  z-index: -1; /*  фон позаду контенту */
+}
 .task30 {
   background-image: url('/img/img-400x200.jpg');
   box-sizing: border-box;
@@ -158,9 +219,29 @@
   font-weight: 900;
   padding: 60px;
   background-origin: content-box;
+  width: 300px;
+  height: 200px;
+  position: relative;
+  background-color: #f2f2f2;
+  overflow: hidden;
 }
-
+.task30::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-image: url('/img/div.container-30.png');
+  background-size: cover;
+  z-index: -1;
+}
 .task31 {
+  width: 300px;
+  height: 200px;
+  position: relative;
+  border: 10px solid transparent;
+  background-image: linear-gradient(to right, blue, green);
   border-image-slice: 1%;
   border-image-width: 40px;
   box-sizing: border-box;
@@ -168,6 +249,16 @@
 }
 
 .task32 {
+  width: 300px;
+  height: 200px;
+  position: relative;
+  border: 10px solid transparent;
+  background-image: radial-gradient(
+    circle at center,
+    red 5%,
+    green 15%,
+    blue 60%
+  );
   border-image-slice: 1%;
   border-image-width: 40px;
   box-sizing: border-box;
@@ -184,4 +275,9 @@
   border-image-width: 40px;
   border-image-slice: 10;
   border-image-repeat: stretch;
+  width: 100%;
+  height: 100px;
+  position: relative;
+  border: 10px solid transparent;
+  border-image: url('your-image.jpg') 30 repeat;
 }
